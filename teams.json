@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Speed Cleave (Быстрый прорыв)",
+    "units": ["Messiah", "Liliam", "Plume", "Chiaki"],
+    "description": "Цель — походить первым и вырезать пачку врага за один ход.",
+    "counters": "Tank-пачки с Viper или Valyrian",
+    "tier": "S"
+  },
+  {
+    "name": "Sustain/Stall (Выживание)",
+    "units": ["Rahu", "Valyrian", "Xuan Li", "Veronika"],
+    "description": "Медленный измор противника через щиты и лечение.",
+    "counters": "Holden (блокировка навыков), высокая точность Messiah",
+    "tier": "A"
+  },
+  {
+    "name": "Anti-Meta Control",
+    "units": ["Holden", "Viper", "Nightingale", "Plume"],
+    "description": "Контроль ярости врага и откат их способностей.",
+    "counters": "Очень высокие показатели сопротивления (RES)",
+    "tier": "S"
+  }
+]
