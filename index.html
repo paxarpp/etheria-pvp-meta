@@ -3,64 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Etheria Restart: PvP Meta</title>
+    <title>Etheria Restart PvP</title>
+    <!-- Используем официальный скрипт Tailwind версии 3 -->
     <script src="https://tailwindcss.com"></script>
+    <style>
+        /* Резервные стили, если Tailwind заблокируется */
+        body { background-color: #0f172a; color: #f8fafc; font-family: sans-serif; }
+        .card { background: #1e293b; border-radius: 12px; padding: 20px; margin-bottom: 20px; border: 1px solid #334155; }
+        .tier { background: #1d4ed8; padding: 2px 8px; border-radius: 4px; font-size: 12px; }
+    </style>
 </head>
-<body class="bg-slate-900 text-slate-100 min-h-screen p-4 md:p-10">
-    <div class="max-w-5xl mx-auto">
-        <header class="mb-12 border-b border-slate-700 pb-6">
-            <h1 class="text-4xl font-extrabold text-blue-400 tracking-tight">Etheria: Restart</h1>
-            <p class="text-slate-400 mt-2">База PvP сборок и контрпиков</p>
-        </header>
-
-        <div id="team-container" class="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <!-- Сюда JS загрузит данные -->
-            <p class="text-slate-500 italic">Загрузка сборок...</p>
+<body class="bg-slate-900 text-slate-100 p-4">
+    <div class="max-w-4xl mx-auto">
+        <h1 class="text-3xl font-bold text-blue-400 mb-8 border-b border-slate-700 pb-4">Etheria PvP Meta</h1>
+        
+        <div id="team-container" class="grid gap-6">
+            <p class="animate-pulse">Загрузка данных из teams.json...</p>
         </div>
     </div>
 
     <script>
-        // Функция для загрузки данных из JSON
         async function loadTeams() {
             try {
-                const response = await fetch('teams.json'); // Читаем файл
+                // Добавляем параметр для сброса кеша, чтобы изменения в JSON виделись сразу
+                const response = await fetch('teams.json?v=' + Date.now());
+                if (!response.ok) throw new Error('Файл teams.json не найден');
+                
                 const teams = await response.json();
                 const container = document.getElementById('team-container');
-                
-                container.innerHTML = ''; // Очищаем текст загрузки
+                container.innerHTML = '';
 
                 teams.forEach(team => {
-                    const card = `
-                        <div class="bg-slate-800 rounded-xl p-6 shadow-2xl border border-slate-700 hover:border-blue-500 transition-all">
-                            <div class="flex justify-between items-start mb-4">
-                                <h2 class="text-2xl font-bold text-white">${team.name}</h2>
-                                <span class="bg-blue-900 text-blue-200 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider">
-                                    Tier ${team.tier}
-                                </span>
+                    container.innerHTML += `
+                        <div class="card shadow-xl border-l-4 border-blue-500">
+                            <div class="flex justify-between items-center mb-3">
+                                <h2 class="text-xl font-bold text-white">${team.name}</h2>
+                                <span class="tier uppercase font-bold">Tier ${team.tier}</span>
                             </div>
-                            
-                            <div class="mb-4">
-                                <span class="text-slate-500 text-sm block mb-1 font-semibold uppercase">Состав:</span>
-                                <p class="text-blue-300 font-medium italic text-lg">${team.units.join(' • ')}</p>
+                            <div class="text-blue-300 font-mono mb-3">
+                                ${team.units.join(' — ')}
                             </div>
-
-                            <p class="text-slate-400 text-sm mb-4 leading-relaxed">${team.description}</p>
-
-                            <div class="bg-red-900/10 border border-red-900/30 p-3 rounded-lg">
-                                <span class="text-red-400 text-xs font-bold uppercase block mb-1">Чем контрится:</span>
-                                <p class="text-red-200 text-sm">${team.counters}</p>
+                            <p class="text-slate-400 text-sm mb-4">${team.description}</p>
+                            <div class="bg-red-500/10 border border-red-500/20 p-3 rounded text-sm">
+                                <strong class="text-red-400 block mb-1 uppercase text-xs">Counter-picks:</strong>
+                                <span class="text-red-200">${team.counters}</span>
                             </div>
                         </div>
                     `;
-                    container.innerHTML += card;
                 });
             } catch (error) {
-                console.error('Ошибка загрузки данных:', error);
-                document.getElementById('team-container').innerHTML = '<p class="text-red-400">Ошибка при загрузке команд.</p>';
+                console.error(error);
+                document.getElementById('team-container').innerHTML = 
+                    `<div class="bg-red-900/50 p-4 rounded border border-red-500 text-red-200">
+                        Ошибка: ${error.message}. <br>
+                        Убедитесь, что файл <b>teams.json</b> лежит в корне репозитория.
+                    </div>`;
             }
         }
-
-        // Запускаем при загрузке страницы
         loadTeams();
     </script>
 </body>
