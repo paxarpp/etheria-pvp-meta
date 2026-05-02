@@ -124,6 +124,79 @@
     </div>
 
     <script>
+        const translate = {
+            // Персонажи (Animus)
+            "Airon": "Айрон",
+            "Alicorn": "Аликорн",
+            "Asal": "Асал",
+            "Beyontin": "Бейонтин",
+            "Bornova": "Борнова",
+            "Cachi": "Качи",
+            "Celince": "Селинс",
+            "Chiaki": "Тиаки",
+            "DokiDoki": "Доки-Доки",
+            "Fiamelia": "Фиамелия",
+            "Fortissimo": "Фортиссимо",
+            "Fuqiu": "Фуцю",
+            "Gianc": "Джанк",
+            "GigaByte": "Гигабайт",
+            "Heinrich": "Генрих",
+            "Holden": "Холден",
+            "Hoyan": "Хоян",
+            "Kethos": "Кетос",
+            "Kokardi": "Кокарди",
+            "Liliam": "Лилиам",
+            "Lily": "Лили",
+            "Lingluo": "Линлуо",
+            "Lowan": "Лован",
+            "Massiah": "Мессия",
+            "Mia": "Мия",
+            "Mio": "Мио",
+            "Mizuki Makoto": "Мидзуки Макото",
+            "Mizusumi Aya": "Мидзусуми Ая",
+            "Nahor": "Нахор",
+            "Nevette": "Неветт",
+            "Ninfoniel": "Нинфониэль",
+            "Palin": "Палин",
+            "Plume": "Плюм",
+            "RC-77": "РЦ-77",
+            "Rahu": "Раху",
+            "Raymerry": "Рэймэрри",
+            "Rosa": "Роза",
+            "Sania": "Сания",
+            "Santik": "Сантик",
+            "Senyu": "Сэнью",
+            "Sylph": "Сильф",
+            "The Lumiwarden Diting": "Хранитель Света Дитин",
+            "Tiamat": "Тиамат",
+            "Tsukiyo Mi": "Цукиё Ми",
+            "Turandot": "Турандот",
+            "Valerian": "Валериан",
+            "Veronika": "Вероника",
+            "Xiada": "Сяда",
+            "Xuan Li": "Сюань Ли",
+            "Yeli": "Ели",
+        
+            // Оболочки / Артефакты (Shells)
+            "Amber": "Амбер (Янтарь)",
+            "Artisan": "Ремесленник",
+            "Champion Gator": "Чемпион Аллигатор",
+            "Codex of Magic": "Кодекс Магии",
+            "Count": "Граф",
+            "Doom Crow": "Ворон Рока",
+            "Halloween": "Хэллоуин",
+            "Jackal Guard": "Страж Шакала",
+            "Law of Silence": "Закон Тишины",
+            "Lighthouse": "Маяк",
+            "Moon Bunny": "Лунная Зайка",
+            "Ouroboros": "Уроборос",
+            "Reaper Steps": "Шаги Жнеца",
+            "Revelation": "Откровение",
+            "Supernova": "Сверхновая",
+            "Sword VII": "Меч VII",
+            "White Fang": "Белый Клык"
+        };
+
         let allTeams = [];
 
         async function loadTeams() {
@@ -138,57 +211,75 @@
             }
         }
         
-        function renderTeams(teams) {
-            const container = document.getElementById('team-container');
-            container.innerHTML = '';
-        
-            if (teams.length === 0) {
-                container.innerHTML = '<p style="color:var(--text-dim)">Ничего не найдено...</p>';
-                return;
-            }
-        
-            teams.forEach(team => {
-                const defenseUnits = (team.defense || [])
-                    .map(d => `${d.animus} <small style="color:var(--text-dim)">(${d.shell || ''})</small>`)
-                    .join(' • ');
-        
-                const countersHtml = (team.counters || []).map(c => {
-                    const units = (c.formation || []).map(u => `${u.animus} (${u.shell || ''})`).join(', ');
-                    return `
-                        <div style="margin-bottom: 12px; border-bottom: 1px solid rgba(239,68,68,0.1); padding-bottom: 8px;">
-                            <strong style="display:block; color:#fecaca;">${units}</strong>
-                            <div style="font-size: 0.8rem; color: var(--text-dim);">
-                                WR: <span style="color:#4ade80">${c.win_rate || 'N/A'}</span> | Patch: ${c.patch || '-'}
-                            </div>
-                        </div>
-                    `;
-                }).join('');
-        
-                container.innerHTML += `
-                    <div class="card">
-                        <div class="units">${defenseUnits}</div>
-                        <div class="counter-section">
-                            <span class="counter-title">Контрпики:</span>
-                            <div class="counter-text" style="margin-top:10px;">${countersHtml || 'Нет данных'}</div>
-                        </div>
+const translate = {
+    // Сюда мы вставим список, который я переведу
+};
+
+const t = (name) => translate[name] || name;
+
+function renderTeams(teams) {
+    const container = document.getElementById('team-container');
+    container.innerHTML = '';
+
+    teams.forEach(team => {
+        const defenseUnits = (team.defense || []).map(d => `
+            <div style="display:flex; align-items:center; gap:8px; margin-bottom:6px;">
+                <img src="${d.img}" style="width:40px; height:40px; border-radius:6px; border:1px solid var(--primary);">
+                <div>
+                    <div style="font-weight:bold; color:#93c5fd; font-size:0.9rem;">${t(d.animus)} <span style="font-weight:normal; opacity:0.5; font-size:0.7rem;">(${d.animus})</span></div>
+                    <div style="font-size:0.75rem; color:var(--text-dim)">${t(d.shell)} <span style="opacity:0.5;">(${d.shell})</span></div>
+                </div>
+            </div>
+        `).join('');
+
+        const countersHtml = (team.counters || []).map(c => {
+            const units = (c.formation || []).map(u => `
+                <div style="display:flex; align-items:center; gap:4px; background: rgba(0,0,0,0.2); padding: 3px 6px; border-radius: 4px; border: 1px solid #334155;">
+                    <img src="${u.img}" style="width:20px; height:20px; border-radius:2px;">
+                    <span style="font-size:0.75rem;">${t(u.animus)}</span>
+                </div>
+            `).join('');
+
+            return `
+                <div style="margin-bottom: 12px; border-bottom: 1px solid rgba(239,68,68,0.1); padding-bottom: 8px;">
+                    <div style="display:flex; flex-wrap:wrap; gap:4px; margin-bottom:5px;">${units}</div>
+                    <div style="font-size: 0.7rem; color: var(--text-dim);">
+                        WR: <span style="color:#4ade80">${c.win_rate || '100%'}</span> | Patch: ${c.patch || '-'}
                     </div>
-                `;
-            });
-        }
-        
-        document.getElementById('hero-search').addEventListener('input', (e) => {
-            const query = e.target.value.toLowerCase();
-            
-            const filtered = allTeams.filter(team => {
-                const inDefense = team.defense?.some(d => d.animus.toLowerCase().includes(query));
-                const inCounters = team.counters?.some(c => 
-                    c.formation?.some(u => u.animus.toLowerCase().includes(query))
-                );
-                return inDefense || inCounters;
-            });
-        
-            renderTeams(filtered);
-        });
+                </div>
+            `;
+        }).join('');
+
+        container.innerHTML += `
+            <div class="card">
+                <div class="card-header">
+                    <h2 style="margin:0; font-size: 1.1rem; color: var(--text-dim);">${team.id}</h2>
+                    <span class="tier-badge">Rank ${team.rank}</span>
+                </div>
+                <div style="margin-bottom:15px;">${defenseUnits}</div>
+                <div class="counter-section">
+                    <span class="counter-title">Counter Formations:</span>
+                    <div class="counter-text" style="margin-top:8px;">${countersHtml || 'No Data'}</div>
+                </div>
+            </div>
+        `;
+    });
+}
+
+// Умный поиск (ищет по EN и RU)
+document.getElementById('hero-search').addEventListener('input', (e) => {
+    const q = e.target.value.toLowerCase();
+    const filtered = allTeams.filter(team => {
+        const check = (u) => {
+            if (!u) return false;
+            const nameEn = (u.animus || "").toLowerCase();
+            const nameRu = (translate[u.animus] || "").toLowerCase();
+            return nameEn.includes(q) || nameRu.includes(q);
+        };
+        return (team.defense || []).some(check) || (team.counters || []).some(c => c.formation?.some(check));
+    });
+    renderTeams(filtered);
+});
         
         loadTeams();
 
