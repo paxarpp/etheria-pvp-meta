@@ -107,6 +107,12 @@
 </head>
 <body>
     <div class="container">
+
+        <div style="margin-bottom: 20px;">
+            <input type="text" id="hero-search" placeholder="Поиск по персонажу (например, Lowan)..." 
+                style="width: 100%; padding: 12px; border-radius: 8px; border: 1px solid #334155; background: #1e293b; color: white; outline: none; box-sizing: border-box;">
+        </div>
+        
         <header>
             <h1>Etheria: Restart PvP Meta</h1>
             <p style="color: var(--text-dim)">Актуальные сборки команд и контрпики</p>
@@ -118,57 +124,78 @@
     </div>
 
     <script>
+        let allTeams = [];
+
         async function loadTeams() {
             try {
-                // Загружаем новый формат файла
                 const response = await fetch('teams.json?v=' + Date.now());
                 if (!response.ok) throw new Error('Файл teams.json не найден');
-                const teams = await response.json();
-                const container = document.getElementById('team-container');
-                container.innerHTML = '';
-
-                teams.forEach(team => {
-                    // Собираем строку юнитов защиты (Анимус + Шелл)
-                    const defenseUnits = team.defense
-                        .map(d => `${d.animus} <small style="color:var(--text-dim)">(${d.shell})</small>`)
-                        .join(' • ');
-
-                    // Собираем все контрпаки в один блок
-                    const countersHtml = team.counters.map(c => {
-                        const units = c.formation
-                            .map(u => `${u.animus} (${u.shell})`)
-                            .join(', ');
-                        return `
-                            <div style="margin-bottom: 8px; border-bottom: 1px solid rgba(239,68,68,0.1); padding-bottom: 4px;">
-                                <strong>${units}</strong><br>
-                                <small>Win Rate: ${c.win_rate} | Patch: ${c.patch}</small>
-                                ${c.notes ? `<br><i style="font-size: 0.8rem; color: #ffb1b1;">💡 ${c.notes}</i>` : ''}
-                            </div>
-                        `;
-                    }).join('');
-
-                    container.innerHTML += `
-                        <div class="card">
-                            <div class="card-header">
-                                <h2 style="margin:0; font-size: 1.2rem;">Team ${team.id}</h2>
-                                <span class="tier-badge">Rank ${team.rank}</span>
-                            </div>
-                            <div class="units">${defenseUnits}</div>
-                            ${team.defense_note ? `<p class="description" style="font-style:italic">Note: ${team.defense_note}</p>` : ''}
-                            
-                            <div class="counter-section">
-                                <span class="counter-title">Эффективные контрпики:</span>
-                                <div class="counter-text">${countersHtml || 'Данных пока нет'}</div>
-                            </div>
-                        </div>
-                    `;
-                });
+                allTeams = await response.json();
+                
+                renderTeams(allTeams); // Первичная отрисовка
             } catch (error) {
                 document.getElementById('team-container').innerHTML = `<p style="color:red">Ошибка: ${error.message}</p>`;
             }
         }
+        
+        function renderTeams(teams) {
+            const container = document.getElementById('team-container');
+            container.innerHTML = '';
+        
+            if (teams.length === 0) {
+                container.innerHTML = '<p style="color:var(--text-dim)">Ничего не найдено...</p>';
+                return;
+            }
+        
+            teams.forEach(team => {
+                const defenseUnits = (team.defense || [])
+                    .map(d => `${d.animus} <small style="color:var(--text-dim)">(${d.shell || ''})</small>`)
+                    .join(' • ');
+        
+                const countersHtml = (team.counters || []).map(c => {
+                    const units = (c.formation || []).map(u => `${u.animus} (${u.shell || ''})`).join(', ');
+                    return `
+                        <div style="margin-bottom: 12px; border-bottom: 1px solid rgba(239,68,68,0.1); padding-bottom: 8px;">
+                            <strong style="display:block; color:#fecaca;">${units}</strong>
+                            <div style="font-size: 0.8rem; color: var(--text-dim);">
+                                WR: <span style="color:#4ade80">${c.win_rate || 'N/A'}</span> | Patch: ${c.patch || '-'}
+                            </div>
+                        </div>
+                    `;
+                }).join('');
+        
+                container.innerHTML += `
+                    <div class="card">
+                        <div class="card-header">
+                            <h2 style="margin:0; font-size: 1.2rem;">${team.id}</h2>
+                            <span class="tier-badge">Rank ${team.rank}</span>
+                        </div>
+                        <div class="units">${defenseUnits}</div>
+                        <div class="counter-section">
+                            <span class="counter-title">Контрпики:</span>
+                            <div class="counter-text" style="margin-top:10px;">${countersHtml || 'Нет данных'}</div>
+                        </div>
+                    </div>
+                `;
+            });
+        }
+        
+        document.getElementById('hero-search').addEventListener('input', (e) => {
+            const query = e.target.value.toLowerCase();
+            
+            const filtered = allTeams.filter(team => {
+                const inDefense = team.defense?.some(d => d.animus.toLowerCase().includes(query));
+                const inCounters = team.counters?.some(c => 
+                    c.formation?.some(u => u.animus.toLowerCase().includes(query))
+                );
+                return inDefense || inCounters;
+            });
+        
+            renderTeams(filtered);
+        });
+        
         loadTeams();
-    </script>
 
+    </script>
 </body>
 </html>
