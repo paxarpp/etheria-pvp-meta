@@ -1,23 +1,4601 @@
 [
   {
-    "name": "Speed Cleave (Быстрый прорыв)",
-    "units": ["Messiah", "Liliam", "Plume", "Chiaki"],
-    "description": "Цель — походить первым и вырезать пачку врага за один ход.",
-    "counters": "Tank-пачки с Viper или Valyrian",
-    "tier": "S"
+    "id": "#586",
+    "rank": 1,
+    "defense": [
+      {
+        "animus": "Kethos",
+        "shell": "Moon Bunny"
+      },
+      {
+        "animus": "Raymerry",
+        "shell": "Amber"
+      },
+      {
+        "animus": "Fiamelia",
+        "shell": "Halloween"
+      }
+    ],
+    "defense_note": "AssaultPowerFullStrike",
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Lowan",
+            "shell": "Amber"
+          },
+          {
+            "animus": "Xuan Li",
+            "shell": "Amber"
+          },
+          {
+            "animus": "Valerian",
+            "shell": "Moon Bunny"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#20",
+        "video_url": null,
+        "notes": null
+      },
+      {
+        "formation": [
+          {
+            "animus": "Lowan",
+            "shell": "Amber"
+          },
+          {
+            "animus": "Kethos",
+            "shell": "Jackal Guard"
+          },
+          {
+            "animus": "Sania",
+            "shell": "GigaByte"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#49",
+        "video_url": null,
+        "notes": null
+      },
+      {
+        "formation": [
+          {
+            "animus": "Gianc",
+            "shell": "Champion Gator"
+          },
+          {
+            "animus": "Xuan Li",
+            "shell": "Doom Crow"
+          },
+          {
+            "animus": "Mizusumi Aya",
+            "shell": "Jackal Guard"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "10W - 0L",
+        "patch": "#61",
+        "video_url": null,
+        "notes": ""
+      },
+      {
+        "formation": [
+          {
+            "animus": "Kethos",
+            "shell": "Jackal Guard"
+          },
+          {
+            "animus": "The Lumiwarden Diting",
+            "shell": "Jackal Guard"
+          },
+          {
+            "animus": "Sania",
+            "shell": "GigaByte"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#67",
+        "video_url": null,
+        "notes": null
+      },
+      {
+        "formation": [
+          {
+            "animus": "Lowan",
+            "shell": "Artisan"
+          },
+          {
+            "animus": "Fuqiu",
+            "shell": "Supernova"
+          },
+          {
+            "animus": "DokiDoki",
+            "shell": "Codex of Magic"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#79",
+        "video_url": null,
+        "notes": null
+      },
+      {
+        "formation": [
+          {
+            "animus": "Lily",
+            "shell": "Amber"
+          },
+          {
+            "animus": "Kethos",
+            "shell": "Moon Bunny"
+          },
+          {
+            "animus": "Valerian",
+            "shell": "Moon Bunny"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#86",
+        "video_url": null,
+        "notes": null
+      },
+      {
+        "formation": [
+          {
+            "animus": "Lily",
+            "shell": "Lighthouse"
+          },
+          {
+            "animus": "Kethos",
+            "shell": "Jackal Guard"
+          },
+          {
+            "animus": "Lingluo",
+            "shell": "GigaByte"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#114",
+        "video_url": null,
+        "notes": null
+      }
+    ]
   },
   {
-    "name": "Sustain/Stall (Выживание)",
-    "units": ["Rahu", "Valyrian", "Xuan Li", "Veronika"],
-    "description": "Медленный измор противника через щиты и лечение.",
-    "counters": "Holden (блокировка навыков), высокая точность Messiah",
-    "tier": "A"
+    "id": "#584",
+    "rank": 2,
+    "defense": [
+      {
+        "animus": "Lowan",
+        "shell": "Amber"
+      },
+      {
+        "animus": "Xuan Li",
+        "shell": "Doom Crow"
+      },
+      {
+        "animus": "Valerian",
+        "shell": "Moon Bunny"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Beyontin",
+            "shell": "Amber"
+          },
+          {
+            "animus": "Yeli",
+            "shell": "Revelation"
+          },
+          {
+            "animus": "Nevette",
+            "shell": "Codex of Magic"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#19",
+        "video_url": null,
+        "notes": null
+      },
+      {
+        "formation": [
+          {
+            "animus": "Kethos",
+            "shell": "Moon Bunny"
+          },
+          {
+            "animus": "Lily",
+            "shell": "Amber"
+          },
+          {
+            "animus": "Sania",
+            "shell": "GigaByte"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#24",
+        "video_url": null,
+        "notes": null
+      },
+      {
+        "formation": [
+          {
+            "animus": "Lily",
+            "shell": "Lighthouse"
+          },
+          {
+            "animus": "Kethos",
+            "shell": "Champion Gator"
+          },
+          {
+            "animus": "Sania",
+            "shell": "GigaByte"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#60",
+        "video_url": null,
+        "notes": null
+      },
+      {
+        "formation": [
+          {
+            "animus": "Plume",
+            "shell": "Jackal Guard"
+          },
+          {
+            "animus": "Liliam",
+            "shell": "Law of Silence"
+          },
+          {
+            "animus": "Rahu",
+            "shell": "Doom Crow"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#77",
+        "video_url": null,
+        "notes": null
+      },
+      {
+        "formation": [
+          {
+            "animus": "Heinrich",
+            "shell": "Codex of Magic"
+          },
+          {
+            "animus": "Nahor",
+            "shell": "Codex of Magic"
+          },
+          {
+            "animus": "Kethos",
+            "shell": "Jackal Guard"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#95",
+        "video_url": null,
+        "notes": null
+      },
+      {
+        "formation": [
+          {
+            "animus": "Plume",
+            "shell": "Jackal Guard"
+          },
+          {
+            "animus": "Rahu",
+            "shell": "Doom Crow"
+          },
+          {
+            "animus": "Nevette",
+            "shell": "Codex of Magic"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#105",
+        "video_url": null,
+        "notes": null
+      }
+    ]
   },
   {
-    "name": "Anti-Meta Control",
-    "units": ["Holden", "Viper", "Nightingale", "Plume"],
-    "description": "Контроль ярости врага и откат их способностей.",
-    "counters": "Очень высокие показатели сопротивления (RES)",
-    "tier": "S"
+    "id": "#617",
+    "rank": 3,
+    "defense": [
+      {
+        "animus": "Raymerry",
+        "shell": "Champion Gator"
+      },
+      {
+        "animus": "Fiamelia",
+        "shell": "Halloween"
+      },
+      {
+        "animus": "Kethos",
+        "shell": "Moon Bunny"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Massiah",
+            "shell": "Count"
+          },
+          {
+            "animus": "Tsukiyo Mi",
+            "shell": "Codex of Magic"
+          },
+          {
+            "animus": "Senyu",
+            "shell": "Revelation"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#37",
+        "video_url": null,
+        "notes": ""
+      },
+      {
+        "formation": [
+          {
+            "animus": "DokiDoki",
+            "shell": "Codex of Magic"
+          },
+          {
+            "animus": "Xiada",
+            "shell": "Revelation"
+          },
+          {
+            "animus": "Ninfoniel",
+            "shell": "Codex of Magic"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "10W - 0L",
+        "patch": "#88",
+        "video_url": null,
+        "notes": ""
+      },
+      {
+        "formation": [
+          {
+            "animus": "Massiah",
+            "shell": "Count"
+          },
+          {
+            "animus": "Raymerry",
+            "shell": "Champion Gator"
+          },
+          {
+            "animus": "Tsukiyo Mi",
+            "shell": "Codex of Magic"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#90",
+        "video_url": null,
+        "notes": null
+      },
+      {
+        "formation": [
+          {
+            "animus": "Gianc",
+            "shell": "Champion Gator"
+          },
+          {
+            "animus": "DokiDoki",
+            "shell": "Codex of Magic"
+          },
+          {
+            "animus": "Massiah",
+            "shell": "Count"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#128",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#672",
+    "rank": 4,
+    "defense": [
+      {
+        "animus": "Lowan",
+        "shell": "Amber"
+      },
+      {
+        "animus": "Xuan Li",
+        "shell": "Moon Bunny"
+      },
+      {
+        "animus": "Valerian",
+        "shell": "Moon Bunny"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Mia",
+            "shell": "Jackal Guard"
+          },
+          {
+            "animus": "Nevette",
+            "shell": "Codex of Magic"
+          },
+          {
+            "animus": "Xuan Li",
+            "shell": "Doom Crow"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#68",
+        "video_url": null,
+        "notes": null
+      },
+      {
+        "formation": [
+          {
+            "animus": "Plume",
+            "shell": "Codex of Magic"
+          },
+          {
+            "animus": "Nevette",
+            "shell": "Codex of Magic"
+          },
+          {
+            "animus": "Liliam",
+            "shell": "Law of Silence"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#94",
+        "video_url": null,
+        "notes": null
+      },
+      {
+        "formation": [
+          {
+            "animus": "Nevette",
+            "shell": "Law of Silence"
+          },
+          {
+            "animus": "Plume",
+            "shell": "Jackal Guard"
+          },
+          {
+            "animus": "Rahu",
+            "shell": "Doom Crow"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#112",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#607",
+    "rank": 5,
+    "defense": [
+      {
+        "animus": "Tiamat",
+        "shell": "Amber"
+      },
+      {
+        "animus": "Plume",
+        "shell": "Jackal Guard"
+      },
+      {
+        "animus": "Sania",
+        "shell": "GigaByte"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Raymerry",
+            "shell": "Amber"
+          },
+          {
+            "animus": "Fiamelia",
+            "shell": "Halloween"
+          },
+          {
+            "animus": "Mizuki Makoto",
+            "shell": "Amber"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#32",
+        "video_url": null,
+        "notes": null
+      },
+      {
+        "formation": [
+          {
+            "animus": "Raymerry",
+            "shell": "Champion Gator"
+          },
+          {
+            "animus": "Lowan",
+            "shell": "Amber"
+          },
+          {
+            "animus": "Fiamelia",
+            "shell": "Halloween"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#40",
+        "video_url": null,
+        "notes": null
+      },
+      {
+        "formation": [
+          {
+            "animus": "Rahu",
+            "shell": "Doom Crow"
+          },
+          {
+            "animus": "Lingluo",
+            "shell": "Alicorn"
+          },
+          {
+            "animus": "Celince",
+            "shell": "Alicorn"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#55",
+        "video_url": null,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "#726",
+    "rank": 6,
+    "defense": [
+      {
+        "animus": "Rahu",
+        "shell": "Doom Crow"
+      },
+      {
+        "animus": "Gianc",
+        "shell": "Champion Gator"
+      },
+      {
+        "animus": "Sylph",
+        "shell": "Alicorn"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Valerian",
+            "shell": "Champion Gator"
+          },
+          {
+            "animus": "Xuan Li",
+            "shell": "Doom Crow"
+          },
+          {
+            "animus": "Plume",
+            "shell": "Jackal Guard"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#100",
+        "video_url": null,
+        "notes": null
+      },
+      {
+        "formation": [
+          {
+            "animus": "Airon",
+            "shell": "Amber"
+          },
+          {
+            "animus": "Xuan Li",
+            "shell": "Doom Crow"
+          },
+          {
+            "animus": "Sania",
+            "shell": "Jackal Guard"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#113",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#702",
+    "rank": 7,
+    "defense": [
+      {
+        "animus": "Tiamat",
+        "shell": "Amber"
+      },
+      {
+        "animus": "Plume",
+        "shell": "Jackal Guard"
+      },
+      {
+        "animus": "Sania",
+        "shell": "Jackal Guard"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Raymerry",
+            "shell": "Amber"
+          },
+          {
+            "animus": "Celince",
+            "shell": "GigaByte"
+          },
+          {
+            "animus": "Sylph",
+            "shell": "GigaByte"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#85",
+        "video_url": null,
+        "notes": null
+      },
+      {
+        "formation": [
+          {
+            "animus": "Rahu",
+            "shell": "Doom Crow"
+          },
+          {
+            "animus": "Raymerry",
+            "shell": "Champion Gator"
+          },
+          {
+            "animus": "Sylph",
+            "shell": "GigaByte"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#121",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#695",
+    "rank": 8,
+    "defense": [
+      {
+        "animus": "Kokardi",
+        "shell": "Jackal Guard"
+      },
+      {
+        "animus": "DokiDoki",
+        "shell": "Lighthouse"
+      },
+      {
+        "animus": "Fuqiu",
+        "shell": "Supernova"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Lily",
+            "shell": "Amber"
+          },
+          {
+            "animus": "Tiamat",
+            "shell": "Ouroboros"
+          },
+          {
+            "animus": "Lingluo",
+            "shell": "GigaByte"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#81",
+        "video_url": null,
+        "notes": null
+      },
+      {
+        "formation": [
+          {
+            "animus": "Mia",
+            "shell": "Moon Bunny"
+          },
+          {
+            "animus": "Xuan Li",
+            "shell": "Doom Crow"
+          },
+          {
+            "animus": "Valerian",
+            "shell": "Moon Bunny"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#82",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#624",
+    "rank": 9,
+    "defense": [
+      {
+        "animus": "Xuan Li",
+        "shell": "Doom Crow"
+      },
+      {
+        "animus": "Lowan",
+        "shell": "Moon Bunny"
+      },
+      {
+        "animus": "Valerian",
+        "shell": "Moon Bunny"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Plume",
+            "shell": "Codex of Magic"
+          },
+          {
+            "animus": "Nevette",
+            "shell": "Codex of Magic"
+          },
+          {
+            "animus": "Liliam",
+            "shell": "Count"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#41",
+        "video_url": null,
+        "notes": null
+      },
+      {
+        "formation": [
+          {
+            "animus": "Veronika",
+            "shell": "Moon Bunny"
+          },
+          {
+            "animus": "Fiamelia",
+            "shell": "Alicorn"
+          },
+          {
+            "animus": "Sylph",
+            "shell": "GigaByte"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#89",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#621",
+    "rank": 10,
+    "defense": [
+      {
+        "animus": "Kokardi",
+        "shell": "Jackal Guard"
+      },
+      {
+        "animus": "DokiDoki",
+        "shell": "Alicorn"
+      },
+      {
+        "animus": "Fuqiu",
+        "shell": "Supernova"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Gianc",
+            "shell": "Champion Gator"
+          },
+          {
+            "animus": "Xuan Li",
+            "shell": "Doom Crow"
+          },
+          {
+            "animus": "Lingluo",
+            "shell": "GigaByte"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#39",
+        "video_url": null,
+        "notes": null
+      },
+      {
+        "formation": [
+          {
+            "animus": "Turandot",
+            "shell": "Codex of Magic"
+          },
+          {
+            "animus": "Yeli",
+            "shell": "Revelation"
+          },
+          {
+            "animus": "Senyu",
+            "shell": "Revelation"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#66",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#595",
+    "rank": 11,
+    "defense": [
+      {
+        "animus": "Lowan",
+        "shell": "Amber"
+      },
+      {
+        "animus": "Sania",
+        "shell": "GigaByte"
+      },
+      {
+        "animus": "Tiamat",
+        "shell": "Amber"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Massiah",
+            "shell": "Count"
+          },
+          {
+            "animus": "Beyontin",
+            "shell": "Codex of Magic"
+          },
+          {
+            "animus": "Tsukiyo Mi",
+            "shell": "Codex of Magic"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#26",
+        "video_url": null,
+        "notes": ""
+      },
+      {
+        "formation": [
+          {
+            "animus": "Kethos",
+            "shell": "Jackal Guard"
+          },
+          {
+            "animus": "Sania",
+            "shell": "GigaByte"
+          },
+          {
+            "animus": "Lily",
+            "shell": "Amber"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#106",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#588",
+    "rank": 12,
+    "defense": [
+      {
+        "animus": "Plume",
+        "shell": "Amber"
+      },
+      {
+        "animus": "Sania",
+        "shell": "Jackal Guard"
+      },
+      {
+        "animus": "Tiamat",
+        "shell": "Amber"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Fiamelia",
+            "shell": "Halloween"
+          },
+          {
+            "animus": "Celince",
+            "shell": "Jackal Guard"
+          },
+          {
+            "animus": "Lowan",
+            "shell": "Amber"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#21",
+        "video_url": null,
+        "notes": null
+      },
+      {
+        "formation": [
+          {
+            "animus": "Lowan",
+            "shell": "Amber"
+          },
+          {
+            "animus": "Fiamelia",
+            "shell": "Halloween"
+          },
+          {
+            "animus": "Mizuki Makoto",
+            "shell": "Artisan"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#25",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#582",
+    "rank": 13,
+    "defense": [
+      {
+        "animus": "Tiamat",
+        "shell": "Amber"
+      },
+      {
+        "animus": "Plume",
+        "shell": "Codex of Magic"
+      },
+      {
+        "animus": "Sania",
+        "shell": "GigaByte"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Raymerry",
+            "shell": "Amber"
+          },
+          {
+            "animus": "Xuan Li",
+            "shell": "Amber"
+          },
+          {
+            "animus": "Fiamelia",
+            "shell": "Halloween"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#18",
+        "video_url": null,
+        "notes": null
+      },
+      {
+        "formation": [
+          {
+            "animus": "Rahu",
+            "shell": "Doom Crow"
+          },
+          {
+            "animus": "Raymerry",
+            "shell": "Amber"
+          },
+          {
+            "animus": "Sania",
+            "shell": "GigaByte"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#72",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#564",
+    "rank": 14,
+    "defense": [
+      {
+        "animus": "Rahu",
+        "shell": "Artisan"
+      },
+      {
+        "animus": "Holden",
+        "shell": "Amber"
+      },
+      {
+        "animus": "Sylph",
+        "shell": "Reaper Steps"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Massiah",
+            "shell": "Count"
+          },
+          {
+            "animus": "Tsukiyo Mi",
+            "shell": "Codex of Magic"
+          },
+          {
+            "animus": "Beyontin",
+            "shell": "Codex of Magic"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#9",
+        "video_url": null,
+        "notes": null
+      },
+      {
+        "formation": [
+          {
+            "animus": "Gianc",
+            "shell": "Champion Gator"
+          },
+          {
+            "animus": "Valerian",
+            "shell": "Moon Bunny"
+          },
+          {
+            "animus": "Kokardi",
+            "shell": "Jackal Guard"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#23",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#781",
+    "rank": 15,
+    "defense": [
+      {
+        "animus": "Lowan",
+        "shell": "Amber"
+      },
+      {
+        "animus": "Gianc",
+        "shell": "Amber"
+      },
+      {
+        "animus": "Sylph",
+        "shell": "GigaByte"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Xuan Li",
+            "shell": "Doom Crow"
+          },
+          {
+            "animus": "Holden",
+            "shell": "Artisan"
+          },
+          {
+            "animus": "Lingluo",
+            "shell": "GigaByte"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#131",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#779",
+    "rank": 16,
+    "defense": [
+      {
+        "animus": "DokiDoki",
+        "shell": "Moon Bunny"
+      },
+      {
+        "animus": "Fuqiu",
+        "shell": "Supernova"
+      },
+      {
+        "animus": "Gianc",
+        "shell": "Champion Gator"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Xuan Li",
+            "shell": "Doom Crow"
+          },
+          {
+            "animus": "Lowan",
+            "shell": "Artisan"
+          },
+          {
+            "animus": "DokiDoki",
+            "shell": "Codex of Magic"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#130",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#777",
+    "rank": 17,
+    "defense": [
+      {
+        "animus": "Lowan",
+        "shell": "Artisan"
+      },
+      {
+        "animus": "Lingluo",
+        "shell": "Lighthouse"
+      },
+      {
+        "animus": "Rahu",
+        "shell": "Doom Crow"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Kethos",
+            "shell": "Jackal Guard"
+          },
+          {
+            "animus": "Lily",
+            "shell": "Jackal Guard"
+          },
+          {
+            "animus": "Sania",
+            "shell": "GigaByte"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#129",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#774",
+    "rank": 18,
+    "defense": [
+      {
+        "animus": "Tiamat",
+        "shell": "Amber"
+      },
+      {
+        "animus": "Sania",
+        "shell": "Jackal Guard"
+      },
+      {
+        "animus": "Holden",
+        "shell": "Amber"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Mizusumi Aya",
+            "shell": "Reaper Steps"
+          },
+          {
+            "animus": "Fuqiu",
+            "shell": "Supernova"
+          },
+          {
+            "animus": "Lowan",
+            "shell": "Artisan"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#127",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#772",
+    "rank": 19,
+    "defense": [
+      {
+        "animus": "Lowan",
+        "shell": "Moon Bunny"
+      },
+      {
+        "animus": "Valerian",
+        "shell": "GigaByte"
+      },
+      {
+        "animus": "The Lumiwarden Diting",
+        "shell": "Jackal Guard"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Valerian",
+            "shell": "Moon Bunny"
+          },
+          {
+            "animus": "Fiamelia",
+            "shell": "Halloween"
+          },
+          {
+            "animus": "Sania",
+            "shell": "GigaByte"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#126",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#770",
+    "rank": 20,
+    "defense": [
+      {
+        "animus": "DokiDoki",
+        "shell": "Codex of Magic"
+      },
+      {
+        "animus": "Gianc",
+        "shell": "Champion Gator"
+      },
+      {
+        "animus": "Xuan Li",
+        "shell": "Doom Crow"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Kethos",
+            "shell": "Jackal Guard"
+          },
+          {
+            "animus": "Turandot",
+            "shell": "Codex of Magic"
+          },
+          {
+            "animus": "Raymerry",
+            "shell": "Champion Gator"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#125",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#768",
+    "rank": 21,
+    "defense": [
+      {
+        "animus": "Raymerry",
+        "shell": "Champion Gator"
+      },
+      {
+        "animus": "Tiamat",
+        "shell": "Amber"
+      },
+      {
+        "animus": "Sania",
+        "shell": "GigaByte"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Heinrich",
+            "shell": "Codex of Magic"
+          },
+          {
+            "animus": "Nahor",
+            "shell": "Codex of Magic"
+          },
+          {
+            "animus": "Liliam",
+            "shell": "Count"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#124",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#766",
+    "rank": 22,
+    "defense": [
+      {
+        "animus": "Fiamelia",
+        "shell": "Halloween"
+      },
+      {
+        "animus": "Kokardi",
+        "shell": "Jackal Guard"
+      },
+      {
+        "animus": "Valerian",
+        "shell": "Moon Bunny"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Lingluo",
+            "shell": "GigaByte"
+          },
+          {
+            "animus": "Airon",
+            "shell": "Jackal Guard"
+          },
+          {
+            "animus": "Tiamat",
+            "shell": "Ouroboros"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#123",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#764",
+    "rank": 23,
+    "defense": [
+      {
+        "animus": "DokiDoki",
+        "shell": "Codex of Magic"
+      },
+      {
+        "animus": "Raymerry",
+        "shell": "Amber"
+      },
+      {
+        "animus": "Hoyan",
+        "shell": "Count"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Valerian",
+            "shell": "Moon Bunny"
+          },
+          {
+            "animus": "Xuan Li",
+            "shell": "Doom Crow"
+          },
+          {
+            "animus": "Plume",
+            "shell": "Jackal Guard"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#122",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#761",
+    "rank": 24,
+    "defense": [
+      {
+        "animus": "Kethos",
+        "shell": "Moon Bunny"
+      },
+      {
+        "animus": "Xuan Li",
+        "shell": "Doom Crow"
+      },
+      {
+        "animus": "Mizusumi Aya",
+        "shell": "Codex of Magic"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Turandot",
+            "shell": "Codex of Magic"
+          },
+          {
+            "animus": "Rosa",
+            "shell": "Revelation"
+          },
+          {
+            "animus": "Yeli",
+            "shell": "Revelation"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#120",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#759",
+    "rank": 25,
+    "defense": [
+      {
+        "animus": "Lowan",
+        "shell": "Amber"
+      },
+      {
+        "animus": "Gianc",
+        "shell": "Champion Gator"
+      },
+      {
+        "animus": "Turandot",
+        "shell": "Codex of Magic"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Kethos",
+            "shell": "Jackal Guard"
+          },
+          {
+            "animus": "Lily",
+            "shell": "Codex of Magic"
+          },
+          {
+            "animus": "Sania",
+            "shell": "GigaByte"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#119",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#757",
+    "rank": 26,
+    "defense": [
+      {
+        "animus": "Xuan Li",
+        "shell": "Amber"
+      },
+      {
+        "animus": "Gianc",
+        "shell": "Jackal Guard"
+      },
+      {
+        "animus": "Lingluo",
+        "shell": "GigaByte"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Rahu",
+            "shell": "Doom Crow"
+          },
+          {
+            "animus": "Raymerry",
+            "shell": "Amber"
+          },
+          {
+            "animus": "Sania",
+            "shell": "GigaByte"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#118",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#755",
+    "rank": 27,
+    "defense": [
+      {
+        "animus": "Tiamat",
+        "shell": "Amber"
+      },
+      {
+        "animus": "Airon",
+        "shell": "Jackal Guard"
+      },
+      {
+        "animus": "Sania",
+        "shell": "Jackal Guard"
+      }
+    ],
+    "defense_note": "AssaultPowerFullStrike",
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Lowan",
+            "shell": "Artisan"
+          },
+          {
+            "animus": "Fuqiu",
+            "shell": "Supernova"
+          },
+          {
+            "animus": "DokiDoki",
+            "shell": "Codex of Magic"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#117",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#753",
+    "rank": 28,
+    "defense": [
+      {
+        "animus": "Rahu",
+        "shell": "Doom Crow"
+      },
+      {
+        "animus": "Lowan",
+        "shell": "Amber"
+      },
+      {
+        "animus": "DokiDoki",
+        "shell": "Moon Bunny"
+      }
+    ],
+    "defense_note": "AssaultPowerFullStrike",
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Fiamelia",
+            "shell": "Law of Silence"
+          },
+          {
+            "animus": "Holden",
+            "shell": "Amber"
+          },
+          {
+            "animus": "Palin",
+            "shell": "Amber"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#116",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#751",
+    "rank": 29,
+    "defense": [
+      {
+        "animus": "Valerian",
+        "shell": "Moon Bunny"
+      },
+      {
+        "animus": "Plume",
+        "shell": "Jackal Guard"
+      },
+      {
+        "animus": "Kokardi",
+        "shell": "Jackal Guard"
+      }
+    ],
+    "defense_note": "AssaultPowerFullStrike",
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Plume",
+            "shell": "Jackal Guard"
+          },
+          {
+            "animus": "RC-77",
+            "shell": "Jackal Guard"
+          },
+          {
+            "animus": "Mio",
+            "shell": "Jackal Guard"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#115",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#746",
+    "rank": 30,
+    "defense": [
+      {
+        "animus": "Xuan Li",
+        "shell": "Doom Crow"
+      },
+      {
+        "animus": "Sania",
+        "shell": "Jackal Guard"
+      },
+      {
+        "animus": "DokiDoki",
+        "shell": "Moon Bunny"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Kethos",
+            "shell": "Jackal Guard"
+          },
+          {
+            "animus": "Xuan Li",
+            "shell": "Doom Crow"
+          },
+          {
+            "animus": "Turandot",
+            "shell": "Jackal Guard"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#111",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#744",
+    "rank": 31,
+    "defense": [
+      {
+        "animus": "Tiamat",
+        "shell": "GigaByte"
+      },
+      {
+        "animus": "Sania",
+        "shell": "Amber"
+      },
+      {
+        "animus": "Plume",
+        "shell": "Jackal Guard"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Celince",
+            "shell": "GigaByte"
+          },
+          {
+            "animus": "Raymerry",
+            "shell": "Champion Gator"
+          },
+          {
+            "animus": "Fiamelia",
+            "shell": "Halloween"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#110",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#742",
+    "rank": 32,
+    "defense": [
+      {
+        "animus": "Gianc",
+        "shell": "Moon Bunny"
+      },
+      {
+        "animus": "Fiamelia",
+        "shell": "Halloween"
+      },
+      {
+        "animus": "Rahu",
+        "shell": "Doom Crow"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Fiamelia",
+            "shell": "Law of Silence"
+          },
+          {
+            "animus": "Valerian",
+            "shell": "Moon Bunny"
+          },
+          {
+            "animus": "Kokardi",
+            "shell": "Jackal Guard"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#109",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#740",
+    "rank": 33,
+    "defense": [
+      {
+        "animus": "Airon",
+        "shell": "Lighthouse"
+      },
+      {
+        "animus": "Kethos",
+        "shell": "Moon Bunny"
+      },
+      {
+        "animus": "Raymerry",
+        "shell": "Amber"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "DokiDoki",
+            "shell": "Codex of Magic"
+          },
+          {
+            "animus": "Fuqiu",
+            "shell": "Supernova"
+          },
+          {
+            "animus": "Lowan",
+            "shell": "Artisan"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#108",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#738",
+    "rank": 34,
+    "defense": [
+      {
+        "animus": "Airon",
+        "shell": "Alicorn"
+      },
+      {
+        "animus": "Valerian",
+        "shell": "Champion Gator"
+      },
+      {
+        "animus": "Kokardi",
+        "shell": "Jackal Guard"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Xuan Li",
+            "shell": "Doom Crow"
+          },
+          {
+            "animus": "Valerian",
+            "shell": "Moon Bunny"
+          },
+          {
+            "animus": "Lowan",
+            "shell": "Artisan"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#107",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#734",
+    "rank": 35,
+    "defense": [
+      {
+        "animus": "Lowan",
+        "shell": "Amber"
+      },
+      {
+        "animus": "Rahu",
+        "shell": "Doom Crow"
+      },
+      {
+        "animus": "Sylph",
+        "shell": "Lighthouse"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Lily",
+            "shell": "Amber"
+          },
+          {
+            "animus": "Kethos",
+            "shell": "Moon Bunny"
+          },
+          {
+            "animus": "Sania",
+            "shell": "GigaByte"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#104",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#732",
+    "rank": 36,
+    "defense": [
+      {
+        "animus": "Xuan Li",
+        "shell": "Doom Crow"
+      },
+      {
+        "animus": "Gianc",
+        "shell": "Champion Gator"
+      },
+      {
+        "animus": "Sania",
+        "shell": "GigaByte"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Celince",
+            "shell": "Jackal Guard"
+          },
+          {
+            "animus": "Plume",
+            "shell": "Jackal Guard"
+          },
+          {
+            "animus": "Xuan Li",
+            "shell": "Doom Crow"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#103",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#730",
+    "rank": 37,
+    "defense": [
+      {
+        "animus": "DokiDoki",
+        "shell": "Moon Bunny"
+      },
+      {
+        "animus": "Kokardi",
+        "shell": "Jackal Guard"
+      },
+      {
+        "animus": "Fuqiu",
+        "shell": "Supernova"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Cachi",
+            "shell": "Codex of Magic"
+          },
+          {
+            "animus": "Liliam",
+            "shell": "Count"
+          },
+          {
+            "animus": "Nahor",
+            "shell": "Codex of Magic"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#102",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#728",
+    "rank": 38,
+    "defense": [
+      {
+        "animus": "Xuan Li",
+        "shell": "Doom Crow"
+      },
+      {
+        "animus": "Lowan",
+        "shell": "Amber"
+      },
+      {
+        "animus": "Sania",
+        "shell": "Lighthouse"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Turandot",
+            "shell": "Codex of Magic"
+          },
+          {
+            "animus": "Raymerry",
+            "shell": "Amber"
+          },
+          {
+            "animus": "Gianc",
+            "shell": "Champion Gator"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#101",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#724",
+    "rank": 39,
+    "defense": [
+      {
+        "animus": "Valerian",
+        "shell": "Moon Bunny"
+      },
+      {
+        "animus": "Kokardi",
+        "shell": "Jackal Guard"
+      },
+      {
+        "animus": "Airon",
+        "shell": "GigaByte"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Fiamelia",
+            "shell": "Halloween"
+          },
+          {
+            "animus": "DokiDoki",
+            "shell": "Amber"
+          },
+          {
+            "animus": "Fuqiu",
+            "shell": "Supernova"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#99",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#722",
+    "rank": 40,
+    "defense": [
+      {
+        "animus": "Fiamelia",
+        "shell": "GigaByte"
+      },
+      {
+        "animus": "Xuan Li",
+        "shell": "Moon Bunny"
+      },
+      {
+        "animus": "Rahu",
+        "shell": "Doom Crow"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Massiah",
+            "shell": "Count"
+          },
+          {
+            "animus": "Beyontin",
+            "shell": "Codex of Magic"
+          },
+          {
+            "animus": "Tsukiyo Mi",
+            "shell": "Codex of Magic"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#98",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#720",
+    "rank": 41,
+    "defense": [
+      {
+        "animus": "Lowan",
+        "shell": "Amber"
+      },
+      {
+        "animus": "Tiamat",
+        "shell": "Amber"
+      },
+      {
+        "animus": "Sania",
+        "shell": "Jackal Guard"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "DokiDoki",
+            "shell": "Codex of Magic"
+          },
+          {
+            "animus": "Kethos",
+            "shell": "Jackal Guard"
+          },
+          {
+            "animus": "Fuqiu",
+            "shell": "Supernova"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#97",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#718",
+    "rank": 42,
+    "defense": [
+      {
+        "animus": "Rahu",
+        "shell": "Doom Crow"
+      },
+      {
+        "animus": "The Lumiwarden Diting",
+        "shell": "Amber"
+      },
+      {
+        "animus": "Mia",
+        "shell": "Lighthouse"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Fiamelia",
+            "shell": "Halloween"
+          },
+          {
+            "animus": "Kokardi",
+            "shell": "Ouroboros"
+          },
+          {
+            "animus": "Airon",
+            "shell": "Moon Bunny"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#96",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#714",
+    "rank": 43,
+    "defense": [
+      {
+        "animus": "Airon",
+        "shell": "Alicorn"
+      },
+      {
+        "animus": "Lowan",
+        "shell": "Amber"
+      },
+      {
+        "animus": "The Lumiwarden Diting",
+        "shell": "Jackal Guard"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Fiamelia",
+            "shell": "Alicorn"
+          },
+          {
+            "animus": "Xuan Li",
+            "shell": "Doom Crow"
+          },
+          {
+            "animus": "Plume",
+            "shell": "Jackal Guard"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#93",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#712",
+    "rank": 44,
+    "defense": [
+      {
+        "animus": "DokiDoki",
+        "shell": "Lighthouse"
+      },
+      {
+        "animus": "Fuqiu",
+        "shell": "Fortissimo"
+      },
+      {
+        "animus": "Asal",
+        "shell": "Jackal Guard"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Airon",
+            "shell": "Jackal Guard"
+          },
+          {
+            "animus": "Kokardi",
+            "shell": "Jackal Guard"
+          },
+          {
+            "animus": "Valerian",
+            "shell": "GigaByte"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#92",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#710",
+    "rank": 45,
+    "defense": [
+      {
+        "animus": "Gianc",
+        "shell": "Champion Gator"
+      },
+      {
+        "animus": "Valerian",
+        "shell": "Moon Bunny"
+      },
+      {
+        "animus": "Xuan Li",
+        "shell": "Codex of Magic"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "DokiDoki",
+            "shell": "Lighthouse"
+          },
+          {
+            "animus": "Fuqiu",
+            "shell": "Supernova"
+          },
+          {
+            "animus": "Lowan",
+            "shell": "Artisan"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#91",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#705",
+    "rank": 46,
+    "defense": [
+      {
+        "animus": "Xuan Li",
+        "shell": "Moon Bunny"
+      },
+      {
+        "animus": "Gianc",
+        "shell": "Champion Gator"
+      },
+      {
+        "animus": "Fuqiu",
+        "shell": "Supernova"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Valerian",
+            "shell": "Moon Bunny"
+          },
+          {
+            "animus": "Xuan Li",
+            "shell": "Doom Crow"
+          },
+          {
+            "animus": "Plume",
+            "shell": "Jackal Guard"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#87",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#700",
+    "rank": 47,
+    "defense": [
+      {
+        "animus": "Mia",
+        "shell": "Lighthouse"
+      },
+      {
+        "animus": "Gianc",
+        "shell": "Champion Gator"
+      },
+      {
+        "animus": "Rahu",
+        "shell": "Doom Crow"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Sania",
+            "shell": "Jackal Guard"
+          },
+          {
+            "animus": "Xuan Li",
+            "shell": "Doom Crow"
+          },
+          {
+            "animus": "Airon",
+            "shell": "Amber"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#84",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#698",
+    "rank": 48,
+    "defense": [
+      {
+        "animus": "Lowan",
+        "shell": "Amber"
+      },
+      {
+        "animus": "Valerian",
+        "shell": "Moon Bunny"
+      },
+      {
+        "animus": "Kokardi",
+        "shell": "Count"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Massiah",
+            "shell": "Count"
+          },
+          {
+            "animus": "Beyontin",
+            "shell": "Codex of Magic"
+          },
+          {
+            "animus": "Tsukiyo Mi",
+            "shell": "Codex of Magic"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#83",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#693",
+    "rank": 49,
+    "defense": [
+      {
+        "animus": "Gianc",
+        "shell": "Champion Gator"
+      },
+      {
+        "animus": "Sania",
+        "shell": "GigaByte"
+      },
+      {
+        "animus": "Rahu",
+        "shell": "Doom Crow"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Raymerry",
+            "shell": "Amber"
+          },
+          {
+            "animus": "Sania",
+            "shell": "Jackal Guard"
+          },
+          {
+            "animus": "Rahu",
+            "shell": "Doom Crow"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#80",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#690",
+    "rank": 50,
+    "defense": [
+      {
+        "animus": "Tiamat",
+        "shell": "Champion Gator"
+      },
+      {
+        "animus": "Plume",
+        "shell": "Jackal Guard"
+      },
+      {
+        "animus": "Sania",
+        "shell": "GigaByte"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Gianc",
+            "shell": "Champion Gator"
+          },
+          {
+            "animus": "Sania",
+            "shell": "GigaByte"
+          },
+          {
+            "animus": "Xuan Li",
+            "shell": "Doom Crow"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#78",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#687",
+    "rank": 51,
+    "defense": [
+      {
+        "animus": "Kethos",
+        "shell": "Moon Bunny"
+      },
+      {
+        "animus": "Mizusumi Aya",
+        "shell": "Reaper Steps"
+      },
+      {
+        "animus": "Raymerry",
+        "shell": "Champion Gator"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Lowan",
+            "shell": "Artisan"
+          },
+          {
+            "animus": "DokiDoki",
+            "shell": "Codex of Magic"
+          },
+          {
+            "animus": "Fuqiu",
+            "shell": "Supernova"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#76",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#685",
+    "rank": 52,
+    "defense": [
+      {
+        "animus": "Gianc",
+        "shell": "Jackal Guard"
+      },
+      {
+        "animus": "Fiamelia",
+        "shell": "Lighthouse"
+      },
+      {
+        "animus": "Rahu",
+        "shell": "Doom Crow"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Xuan Li",
+            "shell": "Doom Crow"
+          },
+          {
+            "animus": "Kokardi",
+            "shell": "Jackal Guard"
+          },
+          {
+            "animus": "Valerian",
+            "shell": "GigaByte"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#75",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#683",
+    "rank": 53,
+    "defense": [
+      {
+        "animus": "Xuan Li",
+        "shell": "Doom Crow"
+      },
+      {
+        "animus": "Kethos",
+        "shell": "Jackal Guard"
+      },
+      {
+        "animus": "Valerian",
+        "shell": "Moon Bunny"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "RC-77",
+            "shell": "Jackal Guard"
+          },
+          {
+            "animus": "Santik",
+            "shell": "Jackal Guard"
+          },
+          {
+            "animus": "Mio",
+            "shell": "Jackal Guard"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#74",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#681",
+    "rank": 54,
+    "defense": [
+      {
+        "animus": "Hoyan",
+        "shell": "Count"
+      },
+      {
+        "animus": "Gianc",
+        "shell": "Champion Gator"
+      },
+      {
+        "animus": "DokiDoki",
+        "shell": "Amber"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Valerian",
+            "shell": "Moon Bunny"
+          },
+          {
+            "animus": "Plume",
+            "shell": "Jackal Guard"
+          },
+          {
+            "animus": "Xuan Li",
+            "shell": "Doom Crow"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#73",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#678",
+    "rank": 55,
+    "defense": [
+      {
+        "animus": "Lingluo",
+        "shell": "Lighthouse"
+      },
+      {
+        "animus": "Rahu",
+        "shell": "Doom Crow"
+      },
+      {
+        "animus": "Holden",
+        "shell": "Artisan"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Yeli",
+            "shell": "Revelation"
+          },
+          {
+            "animus": "Nahor",
+            "shell": "Codex of Magic"
+          },
+          {
+            "animus": "Senyu",
+            "shell": "Revelation"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#71",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#676",
+    "rank": 56,
+    "defense": [
+      {
+        "animus": "Raymerry",
+        "shell": "Champion Gator"
+      },
+      {
+        "animus": "Sania",
+        "shell": "Jackal Guard"
+      },
+      {
+        "animus": "Plume",
+        "shell": "Jackal Guard"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "DokiDoki",
+            "shell": "Codex of Magic"
+          },
+          {
+            "animus": "Fuqiu",
+            "shell": "Supernova"
+          },
+          {
+            "animus": "Lowan",
+            "shell": "Artisan"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#70",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#674",
+    "rank": 57,
+    "defense": [
+      {
+        "animus": "Lowan",
+        "shell": "Amber"
+      },
+      {
+        "animus": "Tiamat",
+        "shell": "Amber"
+      },
+      {
+        "animus": "Lingluo",
+        "shell": "GigaByte"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Lily",
+            "shell": "Amber"
+          },
+          {
+            "animus": "Kethos",
+            "shell": "Jackal Guard"
+          },
+          {
+            "animus": "Sania",
+            "shell": "GigaByte"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#69",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#668",
+    "rank": 58,
+    "defense": [
+      {
+        "animus": "Mia",
+        "shell": "Lighthouse"
+      },
+      {
+        "animus": "The Lumiwarden Diting",
+        "shell": "Jackal Guard"
+      },
+      {
+        "animus": "Xuan Li",
+        "shell": "Amber"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Liliam",
+            "shell": "Count"
+          },
+          {
+            "animus": "Raymerry",
+            "shell": "Amber"
+          },
+          {
+            "animus": "DokiDoki",
+            "shell": "Codex of Magic"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#65",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#666",
+    "rank": 59,
+    "defense": [
+      {
+        "animus": "Gianc",
+        "shell": "Jackal Guard"
+      },
+      {
+        "animus": "Rahu",
+        "shell": "Doom Crow"
+      },
+      {
+        "animus": "Fiamelia",
+        "shell": "Halloween"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Massiah",
+            "shell": "Count"
+          },
+          {
+            "animus": "Tsukiyo Mi",
+            "shell": "Codex of Magic"
+          },
+          {
+            "animus": "Beyontin",
+            "shell": "Codex of Magic"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#64",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#664",
+    "rank": 60,
+    "defense": [
+      {
+        "animus": "Sania",
+        "shell": "Champion Gator"
+      },
+      {
+        "animus": "Kokardi",
+        "shell": "Jackal Guard"
+      },
+      {
+        "animus": "Tiamat",
+        "shell": "Amber"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Raymerry",
+            "shell": "Champion Gator"
+          },
+          {
+            "animus": "Xuan Li",
+            "shell": "Doom Crow"
+          },
+          {
+            "animus": "Sania",
+            "shell": "Supernova"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#63",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#662",
+    "rank": 61,
+    "defense": [
+      {
+        "animus": "Gianc",
+        "shell": "Champion Gator"
+      },
+      {
+        "animus": "Palin",
+        "shell": "Amber"
+      },
+      {
+        "animus": "Xuan Li",
+        "shell": "Doom Crow"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Heinrich",
+            "shell": "Codex of Magic"
+          },
+          {
+            "animus": "Nahor",
+            "shell": "Codex of Magic"
+          },
+          {
+            "animus": "Rahu",
+            "shell": "Doom Crow"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#62",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#658",
+    "rank": 62,
+    "defense": [
+      {
+        "animus": "Rahu",
+        "shell": "Amber"
+      },
+      {
+        "animus": "Celince",
+        "shell": "Jackal Guard"
+      },
+      {
+        "animus": "Lingluo",
+        "shell": "GigaByte"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Lowan",
+            "shell": "Amber"
+          },
+          {
+            "animus": "DokiDoki",
+            "shell": "Codex of Magic"
+          },
+          {
+            "animus": "Sania",
+            "shell": "GigaByte"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#59",
+        "video_url": null,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "#656",
+    "rank": 63,
+    "defense": [
+      {
+        "animus": "Gianc",
+        "shell": "Jackal Guard"
+      },
+      {
+        "animus": "Xuan Li",
+        "shell": "Amber"
+      },
+      {
+        "animus": "Sylph",
+        "shell": "Alicorn"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Turandot",
+            "shell": "Codex of Magic"
+          },
+          {
+            "animus": "Gianc",
+            "shell": "Jackal Guard"
+          },
+          {
+            "animus": "Xuan Li",
+            "shell": "Doom Crow"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#58",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#654",
+    "rank": 64,
+    "defense": [
+      {
+        "animus": "Asal",
+        "shell": "Jackal Guard"
+      },
+      {
+        "animus": "Tiamat",
+        "shell": "Amber"
+      },
+      {
+        "animus": "Sania",
+        "shell": "GigaByte"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Nahor",
+            "shell": "Codex of Magic"
+          },
+          {
+            "animus": "Mio",
+            "shell": "Codex of Magic"
+          },
+          {
+            "animus": "Bornova",
+            "shell": "Sword VII"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#57",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#652",
+    "rank": 65,
+    "defense": [
+      {
+        "animus": "Lowan",
+        "shell": "Amber"
+      },
+      {
+        "animus": "Kokardi",
+        "shell": "Jackal Guard"
+      },
+      {
+        "animus": "Valerian",
+        "shell": "Moon Bunny"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Airon",
+            "shell": "Champion Gator"
+          },
+          {
+            "animus": "Asal",
+            "shell": "Jackal Guard"
+          },
+          {
+            "animus": "Fiamelia",
+            "shell": "Halloween"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#56",
+        "video_url": null,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "#649",
+    "rank": 66,
+    "defense": [
+      {
+        "animus": "Xuan Li",
+        "shell": "Amber"
+      },
+      {
+        "animus": "Valerian",
+        "shell": "Amber"
+      },
+      {
+        "animus": "DokiDoki",
+        "shell": "Codex of Magic"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Lowan",
+            "shell": "Amber"
+          },
+          {
+            "animus": "Xuan Li",
+            "shell": "Doom Crow"
+          },
+          {
+            "animus": "Valerian",
+            "shell": "Moon Bunny"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#54",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#647",
+    "rank": 67,
+    "defense": [
+      {
+        "animus": "Holden",
+        "shell": "Artisan"
+      },
+      {
+        "animus": "Mizuki Makoto",
+        "shell": "Artisan"
+      },
+      {
+        "animus": "Lingluo",
+        "shell": "Lighthouse"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Holden",
+            "shell": "Artisan"
+          },
+          {
+            "animus": "Veronika",
+            "shell": "Halloween"
+          },
+          {
+            "animus": "Fiamelia",
+            "shell": "Halloween"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#53",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#645",
+    "rank": 68,
+    "defense": [
+      {
+        "animus": "Lowan",
+        "shell": "Amber"
+      },
+      {
+        "animus": "Holden",
+        "shell": "Amber"
+      },
+      {
+        "animus": "Lingluo",
+        "shell": "Reaper Steps"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Plume",
+            "shell": "Amber"
+          },
+          {
+            "animus": "Tiamat",
+            "shell": "Amber"
+          },
+          {
+            "animus": "Sania",
+            "shell": "Moon Bunny"
+          }
+        ],
+        "win_rate": "80%",
+        "record": "4W - 1L",
+        "patch": "#52",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#643",
+    "rank": 69,
+    "defense": [
+      {
+        "animus": "Rahu",
+        "shell": "Doom Crow"
+      },
+      {
+        "animus": "Xuan Li",
+        "shell": "Doom Crow"
+      },
+      {
+        "animus": "Sylph",
+        "shell": "Alicorn"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Massiah",
+            "shell": "Count"
+          },
+          {
+            "animus": "Beyontin",
+            "shell": "Codex of Magic"
+          },
+          {
+            "animus": "Tsukiyo Mi",
+            "shell": "Codex of Magic"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#51",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#641",
+    "rank": 70,
+    "defense": [
+      {
+        "animus": "Tiamat",
+        "shell": "Amber"
+      },
+      {
+        "animus": "Sania",
+        "shell": "GigaByte"
+      },
+      {
+        "animus": "Xuan Li",
+        "shell": "Doom Crow"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Rahu",
+            "shell": "Doom Crow"
+          },
+          {
+            "animus": "Fuqiu",
+            "shell": "Supernova"
+          },
+          {
+            "animus": "Plume",
+            "shell": "Jackal Guard"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#50",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#638",
+    "rank": 71,
+    "defense": [
+      {
+        "animus": "Lowan",
+        "shell": "Amber"
+      },
+      {
+        "animus": "Holden",
+        "shell": "Jackal Guard"
+      },
+      {
+        "animus": "Lingluo",
+        "shell": "GigaByte"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Xuan Li",
+            "shell": "Doom Crow"
+          },
+          {
+            "animus": "Valerian",
+            "shell": "GigaByte"
+          },
+          {
+            "animus": "Holden",
+            "shell": "Artisan"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#48",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#636",
+    "rank": 72,
+    "defense": [
+      {
+        "animus": "Fiamelia",
+        "shell": "Halloween"
+      },
+      {
+        "animus": "Kethos",
+        "shell": "Amber"
+      },
+      {
+        "animus": "Raymerry",
+        "shell": "Amber"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Kethos",
+            "shell": "Jackal Guard"
+          },
+          {
+            "animus": "Sania",
+            "shell": "Jackal Guard"
+          },
+          {
+            "animus": "The Lumiwarden Diting",
+            "shell": "Jackal Guard"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#47",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#634",
+    "rank": 73,
+    "defense": [
+      {
+        "animus": "Tiamat",
+        "shell": "Amber"
+      },
+      {
+        "animus": "Plume",
+        "shell": "Codex of Magic"
+      },
+      {
+        "animus": "Sania",
+        "shell": "Jackal Guard"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Raymerry",
+            "shell": "Amber"
+          },
+          {
+            "animus": "Fiamelia",
+            "shell": "Halloween"
+          },
+          {
+            "animus": "Rahu",
+            "shell": "Doom Crow"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#46",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#632",
+    "rank": 74,
+    "defense": [
+      {
+        "animus": "Rahu",
+        "shell": "Doom Crow"
+      },
+      {
+        "animus": "Tiamat",
+        "shell": "Amber"
+      },
+      {
+        "animus": "Sylph",
+        "shell": "Lighthouse"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Gianc",
+            "shell": "Champion Gator"
+          },
+          {
+            "animus": "Raymerry",
+            "shell": "Champion Gator"
+          },
+          {
+            "animus": "Fuqiu",
+            "shell": "Supernova"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#45",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#630",
+    "rank": 75,
+    "defense": [
+      {
+        "animus": "Valerian",
+        "shell": "GigaByte"
+      },
+      {
+        "animus": "Lowan",
+        "shell": "Jackal Guard"
+      },
+      {
+        "animus": "Xuan Li",
+        "shell": "Doom Crow"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Heinrich",
+            "shell": "Codex of Magic"
+          },
+          {
+            "animus": "Liliam",
+            "shell": "Count"
+          },
+          {
+            "animus": "Nahor",
+            "shell": "Codex of Magic"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#44",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#628",
+    "rank": 76,
+    "defense": [
+      {
+        "animus": "Lowan",
+        "shell": "Amber"
+      },
+      {
+        "animus": "Sania",
+        "shell": "GigaByte"
+      },
+      {
+        "animus": "Xuan Li",
+        "shell": "Amber"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Massiah",
+            "shell": "Amber"
+          },
+          {
+            "animus": "Beyontin",
+            "shell": "Halloween"
+          },
+          {
+            "animus": "Tsukiyo Mi",
+            "shell": "GigaByte"
+          }
+        ],
+        "win_rate": "80%",
+        "record": "4W - 1L",
+        "patch": "#43",
+        "video_url": null,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "#626",
+    "rank": 77,
+    "defense": [
+      {
+        "animus": "DokiDoki",
+        "shell": "Amber"
+      },
+      {
+        "animus": "Fuqiu",
+        "shell": "Supernova"
+      },
+      {
+        "animus": "Kokardi",
+        "shell": "Champion Gator"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Tiamat",
+            "shell": "Amber"
+          },
+          {
+            "animus": "Fiamelia",
+            "shell": "Halloween"
+          },
+          {
+            "animus": "Chiaki",
+            "shell": "GigaByte"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#42",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#619",
+    "rank": 78,
+    "defense": [
+      {
+        "animus": "Gianc",
+        "shell": "Champion Gator"
+      },
+      {
+        "animus": "Holden",
+        "shell": "Amber"
+      },
+      {
+        "animus": "Lingluo",
+        "shell": "Lighthouse"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Kethos",
+            "shell": "Jackal Guard"
+          },
+          {
+            "animus": "Lily",
+            "shell": "Amber"
+          },
+          {
+            "animus": "Sania",
+            "shell": "Jackal Guard"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#38",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#615",
+    "rank": 79,
+    "defense": [
+      {
+        "animus": "Lowan",
+        "shell": "Alicorn"
+      },
+      {
+        "animus": "Tiamat",
+        "shell": "Amber"
+      },
+      {
+        "animus": "Sania",
+        "shell": "Alicorn"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Raymerry",
+            "shell": "Champion Gator"
+          },
+          {
+            "animus": "Lingluo",
+            "shell": "GigaByte"
+          },
+          {
+            "animus": "Lowan",
+            "shell": "Amber"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#36",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#613",
+    "rank": 80,
+    "defense": [
+      {
+        "animus": "DokiDoki",
+        "shell": "Moon Bunny"
+      },
+      {
+        "animus": "Kokardi",
+        "shell": "White Fang"
+      },
+      {
+        "animus": "Fuqiu",
+        "shell": "Supernova"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Kethos",
+            "shell": "Jackal Guard"
+          },
+          {
+            "animus": "Sania",
+            "shell": "GigaByte"
+          },
+          {
+            "animus": "Xuan Li",
+            "shell": "Doom Crow"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#35",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#611",
+    "rank": 81,
+    "defense": [
+      {
+        "animus": "The Lumiwarden Diting",
+        "shell": "Jackal Guard"
+      },
+      {
+        "animus": "Ninfoniel",
+        "shell": "Halloween"
+      },
+      {
+        "animus": "Gianc",
+        "shell": "Champion Gator"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Rahu",
+            "shell": "Doom Crow"
+          },
+          {
+            "animus": "Lowan",
+            "shell": "Amber"
+          },
+          {
+            "animus": "Lingluo",
+            "shell": "GigaByte"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#34",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#609",
+    "rank": 82,
+    "defense": [
+      {
+        "animus": "Valerian",
+        "shell": "GigaByte"
+      },
+      {
+        "animus": "Xuan Li",
+        "shell": "Doom Crow"
+      },
+      {
+        "animus": "Airon",
+        "shell": "Moon Bunny"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Lily",
+            "shell": "Amber"
+          },
+          {
+            "animus": "Holden",
+            "shell": "Artisan"
+          },
+          {
+            "animus": "Sania",
+            "shell": "GigaByte"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#33",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#605",
+    "rank": 83,
+    "defense": [
+      {
+        "animus": "Kethos",
+        "shell": "Jackal Guard"
+      },
+      {
+        "animus": "Raymerry",
+        "shell": "Champion Gator"
+      },
+      {
+        "animus": "Fiamelia",
+        "shell": "Alicorn"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Kethos",
+            "shell": "Jackal Guard"
+          },
+          {
+            "animus": "Raymerry",
+            "shell": "Champion Gator"
+          },
+          {
+            "animus": "Fiamelia",
+            "shell": "Halloween"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#31",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#603",
+    "rank": 84,
+    "defense": [
+      {
+        "animus": "Xuan Li",
+        "shell": "Doom Crow"
+      },
+      {
+        "animus": "Gianc",
+        "shell": "Champion Gator"
+      },
+      {
+        "animus": "Fuqiu",
+        "shell": "Supernova"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Lowan",
+            "shell": "Amber"
+          },
+          {
+            "animus": "Fuqiu",
+            "shell": "Supernova"
+          },
+          {
+            "animus": "DokiDoki",
+            "shell": "Lighthouse"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#30",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#601",
+    "rank": 85,
+    "defense": [
+      {
+        "animus": "Rahu",
+        "shell": "Doom Crow"
+      },
+      {
+        "animus": "Valerian",
+        "shell": "Moon Bunny"
+      },
+      {
+        "animus": "Liliam",
+        "shell": "GigaByte"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Nahor",
+            "shell": "Codex of Magic"
+          },
+          {
+            "animus": "Heinrich",
+            "shell": "Codex of Magic"
+          },
+          {
+            "animus": "Liliam",
+            "shell": "Count"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#29",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#599",
+    "rank": 86,
+    "defense": [
+      {
+        "animus": "Airon",
+        "shell": "Champion Gator"
+      },
+      {
+        "animus": "Asal",
+        "shell": "Jackal Guard"
+      },
+      {
+        "animus": "Sylph",
+        "shell": "Alicorn"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Fiamelia",
+            "shell": "Halloween"
+          },
+          {
+            "animus": "Raymerry",
+            "shell": "Champion Gator"
+          },
+          {
+            "animus": "Kethos",
+            "shell": "Moon Bunny"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#28",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#597",
+    "rank": 87,
+    "defense": [
+      {
+        "animus": "Rahu",
+        "shell": "Doom Crow"
+      },
+      {
+        "animus": "Fuqiu",
+        "shell": "Supernova"
+      },
+      {
+        "animus": "DokiDoki",
+        "shell": "Alicorn"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Holden",
+            "shell": "Artisan"
+          },
+          {
+            "animus": "Lily",
+            "shell": "Amber"
+          },
+          {
+            "animus": "Fuqiu",
+            "shell": "Supernova"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#27",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#590",
+    "rank": 88,
+    "defense": [
+      {
+        "animus": "Xuan Li",
+        "shell": "Doom Crow"
+      },
+      {
+        "animus": "Valerian",
+        "shell": "Moon Bunny"
+      },
+      {
+        "animus": "DokiDoki",
+        "shell": "Moon Bunny"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Plume",
+            "shell": "Codex of Magic"
+          },
+          {
+            "animus": "Fuqiu",
+            "shell": "Supernova"
+          },
+          {
+            "animus": "Xuan Li",
+            "shell": "Doom Crow"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#22",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#580",
+    "rank": 89,
+    "defense": [
+      {
+        "animus": "Lowan",
+        "shell": "Jackal Guard"
+      },
+      {
+        "animus": "Airon",
+        "shell": "Amber"
+      },
+      {
+        "animus": "Gianc",
+        "shell": "Moon Bunny"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Heinrich",
+            "shell": "Codex of Magic"
+          },
+          {
+            "animus": "Liliam",
+            "shell": "Count"
+          },
+          {
+            "animus": "Nahor",
+            "shell": "Codex of Magic"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#17",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#578",
+    "rank": 90,
+    "defense": [
+      {
+        "animus": "Xuan Li",
+        "shell": "Doom Crow"
+      },
+      {
+        "animus": "Kethos",
+        "shell": "Moon Bunny"
+      },
+      {
+        "animus": "Fiamelia",
+        "shell": "Halloween"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Raymerry",
+            "shell": "Amber"
+          },
+          {
+            "animus": "Fiamelia",
+            "shell": "Halloween"
+          },
+          {
+            "animus": "Lowan",
+            "shell": "Amber"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#16",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#576",
+    "rank": 91,
+    "defense": [
+      {
+        "animus": "DokiDoki",
+        "shell": "Lighthouse"
+      },
+      {
+        "animus": "Fuqiu",
+        "shell": "Supernova"
+      },
+      {
+        "animus": "Raymerry",
+        "shell": "Champion Gator"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Lowan",
+            "shell": "Amber"
+          },
+          {
+            "animus": "Valerian",
+            "shell": "GigaByte"
+          },
+          {
+            "animus": "Liliam",
+            "shell": "Law of Silence"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#15",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#574",
+    "rank": 92,
+    "defense": [
+      {
+        "animus": "Plume",
+        "shell": "Jackal Guard"
+      },
+      {
+        "animus": "Sania",
+        "shell": "Alicorn"
+      },
+      {
+        "animus": "Tiamat",
+        "shell": "Amber"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Rahu",
+            "shell": "Doom Crow"
+          },
+          {
+            "animus": "Sania",
+            "shell": "GigaByte"
+          },
+          {
+            "animus": "Mizuki Makoto",
+            "shell": "Artisan"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#14",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#572",
+    "rank": 93,
+    "defense": [
+      {
+        "animus": "Xuan Li",
+        "shell": "Doom Crow"
+      },
+      {
+        "animus": "Valerian",
+        "shell": "Moon Bunny"
+      },
+      {
+        "animus": "Gianc",
+        "shell": "Champion Gator"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Raymerry",
+            "shell": "Champion Gator"
+          },
+          {
+            "animus": "Xuan Li",
+            "shell": "Doom Crow"
+          },
+          {
+            "animus": "Heinrich",
+            "shell": "Codex of Magic"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#13",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#570",
+    "rank": 94,
+    "defense": [
+      {
+        "animus": "Kokardi",
+        "shell": "Jackal Guard"
+      },
+      {
+        "animus": "Celince",
+        "shell": "Jackal Guard"
+      },
+      {
+        "animus": "Fuqiu",
+        "shell": "Supernova"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Lowan",
+            "shell": "Amber"
+          },
+          {
+            "animus": "Fiamelia",
+            "shell": "Halloween"
+          },
+          {
+            "animus": "Plume",
+            "shell": "Amber"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#12",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#568",
+    "rank": 95,
+    "defense": [
+      {
+        "animus": "Xuan Li",
+        "shell": "Doom Crow"
+      },
+      {
+        "animus": "Valerian",
+        "shell": "Moon Bunny"
+      },
+      {
+        "animus": "Mizusumi Aya",
+        "shell": "Reaper Steps"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Xuan Li",
+            "shell": "Doom Crow"
+          },
+          {
+            "animus": "Fiamelia",
+            "shell": "Halloween"
+          },
+          {
+            "animus": "Rahu",
+            "shell": "Doom Crow"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#11",
+        "video_url": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "#566",
+    "rank": 96,
+    "defense": [
+      {
+        "animus": "Kethos",
+        "shell": "Jackal Guard"
+      },
+      {
+        "animus": "Fiamelia",
+        "shell": "Halloween"
+      },
+      {
+        "animus": "Raymerry",
+        "shell": "Amber"
+      }
+    ],
+    "defense_note": null,
+    "counters": [
+      {
+        "formation": [
+          {
+            "animus": "Kethos",
+            "shell": "Jackal Guard"
+          },
+          {
+            "animus": "Lily",
+            "shell": "Amber"
+          },
+          {
+            "animus": "Sania",
+            "shell": "GigaByte"
+          }
+        ],
+        "win_rate": "100%",
+        "record": "1W - 0L",
+        "patch": "#10",
+        "video_url": null,
+        "notes": ""
+      }
+    ]
   }
 ]
